@@ -1,0 +1,26 @@
+[
+  {
+    "title": "app",
+    "image": "/images/AMLookup.png",
+    "description" : "App I made in Vue",
+    "link": "https://kind-hermann-78cd4b.netlify.app/",
+    "github": "https://github.com/aminoo10/nuxt-project",
+    "id": 1
+  },
+  {
+    "title": "app",
+    "image": "that",
+    "description" : "App I made",
+    "link": "href",
+    "github": "href",
+    "id": 2
+  },
+  {
+    "title": "app",
+    "image": "these",
+    "description" : "App I made",
+    "link": "href",
+    "github": "href",
+    "id": 3
+  }
+]
