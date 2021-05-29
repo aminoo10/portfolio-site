@@ -1,4 +1,5 @@
 $max-width: 700px;
+$min-entry-height: 2rem;
 
 body {
   margin: 0;
@@ -24,10 +25,10 @@ code {
     font-size: 4rem;
   }
 
-  // .links {
-  //   display: flex;
-  //   justify-content: space-evenly;
-  // }
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
   a {
     margin-left: 16px;
@@ -48,9 +49,9 @@ code {
 }
 
 .entry {
-  max-width: $max-width;
+  max-width: 500px;
   padding: 10px 16px;
-  margin: 20px 0;
+  margin: 10px 0;
   border-bottom: 1px solid #f1f1f1;
   transition: 0.3s;
   
@@ -59,8 +60,8 @@ code {
   }
 
   h2 {
-    font-size: 20px;
-    margin-bottom: 8px;
+    font-size: 22px;
+    margin-bottom: 2rem;
   }
 
   a {
@@ -68,7 +69,19 @@ code {
   }
 
   img {
-    float: left;
-    width: 50%;
+    float:left;
+    width: 40%;
+    height: 155px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
   }
+
+  p {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+
 }

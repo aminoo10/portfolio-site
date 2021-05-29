@@ -1,15 +1,15 @@
 [
   {
-    "title": "app",
+    "title": "AMLookup",
     "image": "/images/AMLookup.png",
-    "description" : "App I made in Vue",
+    "description" : "A Nuxt app utilizing an anime/manga database for search/lookup, displaying statistics and info on different titles",
     "link": "https://kind-hermann-78cd4b.netlify.app/",
     "github": "https://github.com/aminoo10/nuxt-project",
     "id": 1
   },
   {
     "title": "app",
-    "image": "that",
+    "image": "/images/EyuJW5WVgAAD0dI.jpg",
     "description" : "App I made",
     "link": "href",
     "github": "href",
@@ -17,7 +17,7 @@
   },
   {
     "title": "app",
-    "image": "these",
+    "image": "/images/EyuJW5WVgAAD0dI.jpg",
     "description" : "App I made",
     "link": "href",
     "github": "href",
