@@ -37,14 +37,14 @@ code {
     color: #FFF;
     border: 0;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 3px;
     cursor: pointer;
   }
 }
 
 .entries {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
 }
 
@@ -53,6 +53,7 @@ code {
   padding: 10px 16px;
   margin: 10px 0;
   border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f2f2f2;
   transition: 0.3s;
   
   &:hover {
@@ -75,13 +76,37 @@ code {
     object-fit: cover;
     margin-right: 10px;
     border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
   }
 
   p {
     font-size: 13px;
     text-align: center;
     margin-bottom: 20px;
-    
+  }
+
+  .github-logo {
+    width: 30px;
+    height: auto;
+    float: initial;
+    margin-left: 10px;
+    border:none;
   }
 
 }
+
+  .about {
+
+    img {
+      width: 25%;
+      min-width: 400px;
+      margin-bottom: 25px;
+
+    }
+
+    p {
+      width: 25%;
+      min-width: 500px;
+      margin: 0 auto 50px auto;
+    }
+  }

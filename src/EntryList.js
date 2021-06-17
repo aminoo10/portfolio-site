@@ -14,7 +14,9 @@ const EntryList = () => {
             {/* <div className="entry-info"> */}
               <h2>{ entry.title }</h2>
               <p>{entry.description}</p>
-              <a href={entry.github} target="_blank" rel="noreferrer">Github</a>
+              <a href={entry.github} target="_blank" rel="noreferrer">
+                <img src="/images/github-square-brands.svg" class="github-logo" alt="github"/>
+              </a>
             {/* </div> */}
           </div>
         ))} 
