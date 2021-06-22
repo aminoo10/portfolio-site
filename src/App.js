@@ -3,6 +3,8 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Home';
 import Navbar from './Navbar';
 import About from './About';
+import Resume from './Resume';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
               <About />
             </Route>
             <Route path="/resume">
+               <Resume />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
