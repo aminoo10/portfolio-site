@@ -3,7 +3,7 @@ import EntryList from "./EntryList"
 const Home = () => {
   return ( 
     <div className="home">
-      <h2>TEst123</h2>
+      <h1>Projects</h1>
       <EntryList/>
     </div>
    );
