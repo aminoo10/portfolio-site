@@ -40,7 +40,7 @@ const Resume = () => {
         </ul>
       </div>}
       { usePDF && <div className="pdf-resume">
-        <iframe src={`${PDF}#toolbar=0&navpanes=0&scrollbar=0`} width="65%" height="1070px"> </iframe>
+        <iframe title="My Resume" src={`${PDF}#toolbar=0&navpanes=0&scrollbar=0`} width="65%" height="1070px"> </iframe>
       </div> }  
     </div>
    );
