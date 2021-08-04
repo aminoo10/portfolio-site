@@ -22,5 +22,13 @@
     "link": "https://kind-hermann-78cd4b.netlify.app/",
     "github": "https://github.com/aminoo10/nuxt-project",
     "id": 3
+  },
+  {
+    "title": "Calculator",
+    "image": "/images/calc-v1.png",
+    "description": "A simple calculator project to test out front end development skills, prompt from the Frontend Mentor website. Utilized with NextJS, hosted with Vercel.",
+    "link" : "https://calculator-app-nu-six.vercel.app/",
+    "github" : "https://github.com/aminoo10/calculator-app",
+    "id": 4
   }
 ]
