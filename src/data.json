@@ -1,11 +1,19 @@
 [
   {
+    "title": "Calculator",
+    "image": "/images/calc-v1.png",
+    "description": "A simple calculator project prompt from the Frontend Mentor website. Utilized with NextJS.",
+    "link" : "https://calculator-app-nu-six.vercel.app/",
+    "github" : "https://github.com/aminoo10/calculator-app",
+    "id": 1
+  },
+  {
     "title": "Adopt-A-Dog",
     "image": "/images/adoptadog.png",
     "description" : "Front end website project made from a image concept and coding it out in HTML, CSS, and some Javascript (minimal backend)",
     "link": "https://aminoo10.github.io/html200-adopt-a-dog/index.html",
     "github": "https://github.com/aminoo10/html200-adopt-a-dog",
-    "id": 1
+    "id": 2
   },
   {
     "title": "Arch Project",
@@ -13,7 +21,7 @@
     "description" : "Simple front end project made from a concept proposal and coding it in HTML and CSS",
     "link": "https://aminoo10.github.io/arch-project/index.html",
     "github": "https://github.com/aminoo10/arch-project",
-    "id": 2
+    "id": 3
   },
   {
     "title": "AMLookup",
@@ -21,14 +29,6 @@
     "description" : "A Nuxt app utilizing an anime/manga database for search/lookup, displaying statistics and info on different titles",
     "link": "https://kind-hermann-78cd4b.netlify.app/",
     "github": "https://github.com/aminoo10/nuxt-project",
-    "id": 3
-  },
-  {
-    "title": "Calculator",
-    "image": "/images/calc-v1.png",
-    "description": "A simple calculator project prompt from the Frontend Mentor website. Utilized with NextJS.",
-    "link" : "https://calculator-app-nu-six.vercel.app/",
-    "github" : "https://github.com/aminoo10/calculator-app",
     "id": 4
   }
 ]
