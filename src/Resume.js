@@ -16,7 +16,7 @@ const Resume = () => {
         <h2>Skills &amp; Experience</h2>
         <ul>
           <li><p>Experience and exposure to languages in Object-Oriented Design: C, Java, SQL, and Javascript</p></li>
-          <li><p>Experience in web development utilizing HTML, CSS, JS, Jquery, preprocessors (sass), and frameworks (Vue/Nuxt). Continuing to expand knowledge with other frameworks and technologies (React)</p></li>
+          <li><p>Experience in web development utilizing HTML, CSS, JS, Jquery, preprocessors (sass), and frameworks (Vue/Nuxt). Continuing to expand knowledge with other frameworks and technologies (React/Nuxt.js), exposure to C# and Python.</p></li>
           <li><p>Fast learner, adaptive, proactive. Project development experience through AGILE workflow.</p></li>
         </ul>
         <hr />
