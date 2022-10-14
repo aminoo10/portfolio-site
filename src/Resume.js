@@ -1,52 +1,87 @@
 import PDF from './resume.pdf'
-//test change
+
 const Resume = () => {
 
+  const blackDot = '\u25CF';
   const usePDF = false;
 
   return ( 
     <div className="resume">
-      {!usePDF && <div className="html-resume">      <h1>Ashcon Minoo</h1>
-        <p>acminoo95@gmail.com <br />(253)951-1134 <br /><a href="https://github.com/aminoo10" target="_blank" rel="noreferrer">https://github.com/aminoo10</a></p>
-        <hr />
-        <h2>Education</h2>
-        <p><i>University of Washington Tacoma - <strong>Bachelor of Science in Computer Science &amp; Systems (2015-2017)</strong></i></p>
-        <p><i>University of Washington - <strong>Certificate in Front-End Web Development (2020-2021)</strong></i></p>
-        <hr />
-        <h2>Skills &amp; Experience</h2>
-        <ul>
-          <li><p>Experience and exposure to languages in Object-Oriented Design: <strong>C, Java</strong>, SQL, and Javascript</p></li>
-          <li><p>Experience in web development utilizing HTML, CSS, JS, Jquery, preprocessors (sass), and frameworks (Vue/Nuxt). Continuing to expand knowledge with other frameworks and technologies (React/Nuxt.js), exposure to C# and Python.</p></li>
-          <li><p>Fast learner, adaptive, proactive. Project development experience through AGILE workflow.</p></li>
-          <li><p>Experience working with cloud technologies such as Azure, as well as work as a Database Administrator with SQL. Exposure to AWS.</p></li>
-        </ul>
-        <hr />
-        <h2>Project Experience</h2>
-        <h3>Personal Projects:</h3>
-        <p>Programming projects done in my spare time for learning/mastering new technologies: Jan 2021 - Present</p>
-        <h4>"Front-end development API project"</h4>
-        <p>A project using the <strong>Nuxt/Vue framework, Javascript, HTML, CSS</strong> that fetches requests through an API with the purpose of querying and listing information on Anime and Manga title listings.</p>
-        <h4>"Portfolio Website"</h4>
-        <p>A portfolio website made using the <strong>ReactJS</strong> framework, Javascript, HTML, and CSS. Made to showcase other web applications I've made and other resources for professional use.  <em>(You're on it right now!!!)</em></p>
-        <hr />
-        <h2>Work Experience</h2>
-        <h3>IT Internship at Weyerhaeuser:</h3> 
-        <p>Seattle, WA.  <strong>Working in three roles:</strong> Jan 2019 - Jan 2020</p>
-        <h4>Database Administration:</h4>
-        <p>Part of the DBA team working on installing and setting up <strong>SQL Server</strong>, Database migrations, and database/server functions per service request by application stewards and corporate function development teams</p>
-        <h4>DevOps:</h4>
-        <p>Worked with the Cloud Applications team setting up apps for development teams, researching and documenting new possible cloud features to utilize, and working with <strong>Azure</strong> writing ARM template scripts and PaaS applications</p>
-        <h4>Project Testing and Documentation:</h4>
-        <ul>
-          <li><p>Helping with Real Estate/Energy IT team to develop application-testing workflow and organization for testing.</p> </li>
-          <li><p>Coordinating with project managers and developers on acceptance criterias, functionality, and bug documentation</p></li>
-        </ul>
-        <hr />
-        {/* <p><strong>Key Courses:</strong> Data Structures, <strong>C Programming</strong>, Design and Analysis of Algorithms, <strong>Software Development and QA, Database Systems</strong>, User-Computer Design Interface, Computational Worlds, <strong>Javascript and Advanced CSS.</strong></p> */}
+      {!usePDF && <div className="html-resume">      
+        <div className="header">
+          <h1>Ashcon Minoo</h1>
+          <p>Seattle, Washington {blackDot} 
+          <a href="mailto:acminoo95@gmail.com" target="_blank" rel="noreferrer"> acminoo95@gmail.com </a> 
+          {blackDot} 253-951-1134 {blackDot} 
+          <a href="https://linkedin.com/in/ashcon-minoo-533316114/" target="_blank" rel="noreferrer"> linkedin.com/in/ashcon-minoo-533316114/</a> {blackDot}
+          <br /><a href="https://github.com/aminoo10" target="_blank" rel="noreferrer">github.com/aminoo10</a></p>
+          <i>Fast learner, adaptive, and proactive.</i>
+        </div>
+        <div className="education">
+          <h4>EDUCATION</h4>
+          <hr id="hr-1"/>
+          <p><strong>University of Washington, Seattle, WA</strong>
+          <span className="float-right">Jan 2021</span> <br />
+          Certificate in Front-end Web Development</p>
+          
+          <p><strong>University of Washington Tacoma, Tacoma, WA</strong>
+          <span className="float-right">Dec 2016</span> <br />
+          Bachelor of Science in Computer Science &amp; systems 
+          <span className="float-right">GPA:3.29</span> <br />
+          <i>Relevant coursework:</i> Software Engineering, Discete Mathematics, Data Structures, Design and Analysis of Algorithms</p>
+          
+        </div>
+        <div className="technical-skills">
+          <h4>TECHNICAL SKILLS</h4>
+          <hr id="hr-2"/>
+          <p><span id="indent-1">Languages:</span> Javascript, Java, C, CSS3, HTML5, PowerShell, SQL <br />
+          <span id="indent-2">Frameworks:</span> Bootstrap, ReactJS, Vue.JS, GitHub, Microsoft Azure <br />
+          <span id="indent-3">Tools:</span> Photoshop, Git, Visual Studio Code</p>
+        </div>
+        <div className="pro-experience">
+          <h4>PROFESSIONAL EXPERIENCE</h4>
+          <hr id="hr-3"/>
+          <strong>Weyerhaeuser - Seattle, WA</strong>
+          <span className="float-right">Jan 2019 - Jan 2020</span><br />
+          Intern <br />
+
+          <ul>
+            <li> Worked with the DBA Team to install and set-up SQL Server, database migrations, and database/server functions 
+              per service request by application stewards and corporate function development teams, worked throughout the year 
+              migrating data and services, keeping software up-to-date for prevention of security vulnerabilities.</li>
+            <li> Worked with the Cloud Applications Team setting up apps, researching and documenting new cloud technology topics, 
+              and working with Azure writing ARM template scripts and PaaS applications for auditing access and authentication of Azure 
+              DevOps. Helped management in understanding new available technologies our teams can take advantage of, which helped alleviate 
+              costs in terms of subscription services.</li>
+            <li> Helped the Real Estate/Energy team develop application-testing workflow and organization for testing. Coordinated with project 
+              managers and developers on acceptance criteria, functionality, and bug documentation which became helpful aids for the application 
+              developers and other participants of application testing.</li>
+          </ul>
+        </div>
+        <div className="projects">
+          <h4>PROJECTS</h4>
+          <hr id="hr-4"/>
+          <strong className="project-header">Front-end development API project</strong>
+          <span className="float-right">Dec 2020 - Jan 2021</span>
+          <ul>
+            <li>Developed a project using the Nuxt/Vue framework, Javascript, HTML, and CSS, that fetches requests through an unofficial API for the website MyAnimeList, JIkan. </li>
+            <li>Made with the purpose of querying and listing information on Anime and Manga title listings, and displaying info related to their content. Options available for 
+              searching for specific types of medium (Video medium, and Print medium)</li>
+          </ul>
+          <strong className="project-header">Portfolio Website (the one you're on right now!!)</strong>
+          <span className="float-right">Sep 2021 - Dec 2021 </span>
+          <ul>
+            <li> A Portfolio website made using the ReactJS framework, Javascript, HTML, and CSS to showcase applications I’ve made and other resources for professional use. 
+              Made relatively quick and easily and was a great opportunity at UI layout/logo design.</li>
+            <li>Features links to the applications as well as a Github link to the source code as well. Contains an about-me section and a page with a copy of my resume for professional engagement.</li>
+          </ul>
+        </div>
+        
       </div>}
       { usePDF && <div className="pdf-resume">
         <iframe title="My Resume" src={`${PDF}#toolbar=0&navpanes=0&scrollbar=0`} width="65%" height="1070px"> </iframe>
       </div> }  
+      <a id="download-button" href={PDF} download="Ashcon_Minoo_Resume.pdf">Download Resume</a>
     </div>
    );
 }
