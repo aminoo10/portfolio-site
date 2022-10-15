@@ -24,10 +24,8 @@ const Resume = () => {
           <span className="float-right">Jan 2021</span> <br />
           Certificate in Front-end Web Development</p>
           
-          <p><strong>University of Washington Tacoma, Tacoma, WA</strong>
-          <span className="float-right">Dec 2016</span> <br />
-          Bachelor of Science in Computer Science &amp; systems 
-          <span className="float-right">GPA:3.29</span> <br />
+          <p><strong>University of Washington Tacoma, Tacoma, WA</strong> <br />
+          Bachelor of Science in Computer Science &amp; systems <br />
           <i>Relevant coursework:</i> Software Engineering, Discete Mathematics, Data Structures, Design and Analysis of Algorithms</p>
           
         </div>
