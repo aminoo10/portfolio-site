@@ -10,11 +10,15 @@ const Resume = () => {
       {!usePDF && <div className="html-resume">      
         <div className="header">
           <h1>Ashcon Minoo</h1>
-          <p>Seattle, Washington {blackDot} 
-          <a href="mailto:acminoo95@gmail.com" target="_blank" rel="noreferrer"> acminoo95@gmail.com </a> 
+          <p>Seattle, Washington {blackDot}
+          <span>
+            <a href="mailto:acminoo95@gmail.com" target="_blank" rel="noreferrer"> acminoo95@gmail.com </a>/
+            <a href="mailto:ashcon.minoo@gmail.com" target="_blank" rel="noreferrer"> ashcon.minoo@gmail.com </a> 
+          </span>
           {blackDot} 253-951-1134 {blackDot} 
+          <br />
           <a href="https://linkedin.com/in/ashcon-minoo-533316114/" target="_blank" rel="noreferrer"> linkedin.com/in/ashcon-minoo-533316114/</a> {blackDot}
-          <br /><a href="https://github.com/aminoo10" target="_blank" rel="noreferrer">github.com/aminoo10</a></p>
+          <a href="https://github.com/aminoo10" target="_blank" rel="noreferrer"> github.com/aminoo10</a></p>
           <i>Fast learner, adaptive, and proactive.</i>
         </div>
         <div className="education">
