@@ -26,40 +26,41 @@ const Resume = () => {
           <div>
             <strong>TD Bank - Mount Laurel, NJ</strong>
             <span className="float-right">Mar 2023 - Present</span><br />
-            Full-Stack Contractor <br />
+            Deployment Lead <br />
 
             <ul>
-              <li>Worked on the Enterprise Deployment team as a Deployment Lead and led the creation and implementation of production software 
-                deployments for TD Bank enterprise and customer products, within the Authentication group.</li>
-                <li>Documented standards for deployment lead practice within the Authentication team, as well 
-                  as shadowed for and trained new team members</li>
+              <li>Led the management and implementation of production software deployments and 
+                improved release standards within multiple development teams part TD’s 
+                Customer Identity & Access Management Product Family.</li>
+              <li>Created Deployment Lead best practices, as well as trained and consulted new hires on strategies 
+                for successful deployment planning within software development teams through the Scaled Agile Framework.</li>
+              <li>Engaged in interpersonal communication with development teams to manage resources for upcoming releases 
+                of software projects to meet timelines and exceed stakeholder expectations.</li>
             </ul>
           </div>
           <div>
           <strong>Weyerhaeuser - Seattle, WA</strong>
           <span className="float-right">Jan 2019 - Jan 2020</span><br />
-          Intern <br />
+          Cloud Application Developer <br />
 
           <ul>
-            <li> Worked with the DBA Team to install and set-up SQL Server, database migrations, and database/server functions 
-              per service request by application stewards and corporate function development teams, worked throughout the year 
-              migrating data and services, keeping software up-to-date for prevention of security vulnerabilities.</li>
-            <li> Worked with the Cloud Applications Team setting up apps, researching and documenting new cloud technology topics, 
-              and working with Azure writing ARM template scripts and PaaS applications for auditing access and authentication of Azure 
-              DevOps. Helped management in understanding new available technologies our teams can take advantage of, which helped alleviate 
-              costs in terms of subscription services.</li>
-            <li> Helped the Real Estate/Energy team develop application-testing workflow and organization for testing. Coordinated with project 
-              managers and developers on acceptance criteria, functionality, and bug documentation which became helpful aids for the application 
-              developers and other participants of application testing.</li>
+            <li>Configured and deployed SQL Server, database migrations, and database/server functions per service request by application 
+              stewards and corporate function development teams, built tools to assist in automating this process of SQL Server creation 
+              and installation.</li>
+            <li>Deployed infrastructure, and documented new cloud technology topics, consulting team executives on new available technologies 
+              that the corporate technology infrastructure could take advantage of. Built cloud applications with Azure and automated auditing 
+              access logs through Azure DevOps.</li>
+            <li>Developed application-testing workflow and documentation of functional testing. provided helpful aid for the application developers 
+              in regard to acceptance criteria, functionality, and bug documentation.</li>
           </ul>
           </div>
         </div>
         <div className="technical-skills">
           <h4>TECHNICAL SKILLS</h4>
           <hr id="hr-2"/>
-          <p><span id="indent-1">Languages:</span> JavaScript, Java, C, CSS3, HTML5, PowerShell, SQL, C#, Python, TypeScript, Golang <br />
-          <span id="indent-2">Frameworks:</span> Spring, React JS, Vue.js, GitHub, Microsoft Azure <br />
-          <span id="indent-3">Tools:</span> Photoshop, Git, Visual Studio Code, Visual Studio, Unity, IntelliJ, Figma, Adobe XD, Blender</p>
+          <p><span id="indent-1">Languages:</span> JavaScript, Java, C, CSS3, HTML5, PowerShell, SQL, C#, Python, TypeScript <br />
+          <span id="indent-2">Frameworks:</span> Spring, React JS, Vue.js, GitHub, Microsoft Azure, GraphQL, Next.JS, Redux.js <br />
+          <span id="indent-3">Tools:</span> Photoshop, Version Control (git), Visual Studio Code, Figma, Blender, GraphQL, NPM</p>
         </div>
         <div className="education">
           <h4>EDUCATION</h4>
@@ -75,21 +76,23 @@ const Resume = () => {
           <hr id="hr-4"/>
           <strong className="project-header">Front-end Calculator Project</strong>
           <ul>
-            <li>A calculator web app built using Next.js, HTML, and CSS with pre-processors.</li>
-            <li>Made as practice for working with front-end UI prompts, as well as for understanding calculator backend logic</li>
+            <li>A calculator web app built using Next.js, HTML, and SASS. made by reverse-engineering calculator backend logic, 
+              as well as researching design implementations for front-end animations, styles, and functionalities.</li>
           </ul>
 
           <strong className="project-header">Portfolio Website (the one you're on right now!!)</strong>
           <ul>
-            <li> A Portfolio website built using the ReactJS frameworkas a site to showcase applications I’ve made and other resources for professional use.</li>
-            <li>Features links to the applications as well as a Github link to the source code as well. Contains an about-me section and a page with a copy of my resume for professional engagement.</li>
+            <li> Portfolio website built with React, as a site to showcase applications and a platform for UI design, graphic design, and other professional resources.. 
+              Features links to projects as well as a link to the github repository as well.</li>
+            <li>Features links to projects as well as a link to the github repository, as well as other opportunities to 
+              test and play around with React in.</li>
           </ul>
 
           <strong className="project-header">AMLookup</strong>
           <ul>
-            <li>Developed a project using the Nuxt/Vue framework, Javascript, HTML, and CSS, that fetches requests through an unofficial API for the website MyAnimeList, JIkan. </li>
-            <li>Made with the purpose of querying and listing information on Anime and Manga title listings, and displaying info related to their content. Options available for 
-              defining type of search (Video medium, and Print medium)</li>
+            <li>Website using the Nuxt/Vue framework, fetches requests through a RESTful API that accesses data from the website MyAnimeList, Jikan. </li>
+            <li>Made for the purpose of querying and listing information on Anime and Manga title listings and displaying information on said listings. 
+              Options available for defining type of search to Video medium, or Print medium.</li>
           </ul>
         </div>
         
