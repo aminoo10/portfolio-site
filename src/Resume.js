@@ -25,13 +25,13 @@ const Resume = () => {
           <hr id="hr-3"/>
           <div>
             <strong>TD Bank - Mount Laurel, NJ</strong>
-            <span className="float-right">Mar 2023 - Present</span><br />
+            <span className="float-right">Mar 2023 - Sept 2024</span><br />
             Deployment Lead <br />
 
             <ul>
-              <li>Led the management and implementation of production software deployments and 
-                improved release standards within multiple development teams part TD’s 
-                Customer Identity & Access Management Product Family.</li>
+              <li>Led the management and implementation of over 200 production software deployments and improved release standards 
+                within multiple development teams as part TD’s Customer Identity & Access Management Product Family.
+              </li>
               <li>Created Deployment Lead best practices, as well as trained and consulted new hires on strategies 
                 for successful deployment planning within software development teams through the Scaled Agile Framework.</li>
               <li>Engaged in interpersonal communication with development teams to manage resources for upcoming releases 
@@ -74,10 +74,11 @@ const Resume = () => {
         <div className="projects">
           <h4>PROJECTS</h4>
           <hr id="hr-4"/>
-          <strong className="project-header">Front-end Calculator Project</strong>
+          <strong className="project-header">Change Order Tracker</strong>
           <ul>
-            <li>A calculator web app built using Next.js, HTML, and SASS. made by reverse-engineering calculator backend logic, 
-              as well as researching design implementations for front-end animations, styles, and functionalities.</li>
+            <li>A CRUD app built using Next.js, and tailwindcss. Created this project to help with tracking 
+              change orders for my work as a Deployment Lead, based on an improved process I was using through Excel spreadsheets. 
+            </li>
           </ul>
 
           <strong className="project-header">Portfolio Website (the one you're on right now!!)</strong>

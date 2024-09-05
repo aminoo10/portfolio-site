@@ -30,5 +30,13 @@
     "link": "https://kind-hermann-78cd4b.netlify.app/",
     "github": "https://github.com/aminoo10/nuxt-project",
     "id": 4
+  },
+  {
+    "title": "Change Order Tracker",
+    "image": "/images/co-tracker.png",
+    "description": "A CRUD app built using Next.js, and tailwindcss. Created this project to help with tracking change orders for my work as a Deployment Lead, based on an improved process I was using through Excel spreadsheets",
+    "link": "https://co-tracker-app.vercel.app/",
+    "github": "https://github.com/aminoo10/co-tracker-app",
+    "id": 5
   }
 ]
