@@ -5,102 +5,102 @@ const Resume = () => {
   const blackDot = '\u25CF';
   const usePDF = false;
 
-  return ( 
+   return (
     <div className="resume">
-      {!usePDF && <div className="html-resume">      
+      {!usePDF && <div className="html-resume">
         <div className="header">
           <h1>Ashcon Minoo</h1>
-          <p>Seattle, Washington {blackDot}
-          <span>
-            <a href="mailto:acminoo95@gmail.com" target="_blank" rel="noreferrer"> acminoo95@gmail.com </a>/
-          </span>
-          {blackDot} 253-951-1134 {blackDot} 
+          <p>Federal Way, WA {blackDot} U.S. Citizen {blackDot}
+          <a href="mailto:acminoo95@gmail.com" target="_blank" rel="noreferrer"> acminoo95@gmail.com </a>
+          {blackDot} 253-951-1134
           <br />
-          <a href="https://linkedin.com/in/ashcon-minoo-533316114/" target="_blank" rel="noreferrer"> LinkedIn</a> {blackDot}
-          <a href="https://github.com/aminoo10" target="_blank" rel="noreferrer"> GitHub</a></p>
-          <i>Fast learner, adaptive, and proactive.</i>
+          <a href="https://linkedin.com/in/ashcon-minoo-533316114/" target="_blank" rel="noreferrer">linkedin.com/in/ashcon-minoo-533316114</a> {blackDot}
+          <a href="https://github.com/aminoo10" target="_blank" rel="noreferrer"> github.com/aminoo10</a></p>
+          <p className="summary">Computer Science graduate and PC builder since age 14, with experience in release management,
+            cloud infrastructure, and full-stack development. Led 200+ production deployments at TD Bank; spec and build
+            systems for friends and family and run Linux daily.</p>
         </div>
+
         <div className="pro-experience">
           <h4>PROFESSIONAL EXPERIENCE</h4>
           <hr id="hr-3"/>
           <div>
-            <strong>TD Bank - Mount Laurel, NJ</strong>
-            <span className="float-right">Mar 2023 - Sept 2024</span><br />
-            Deployment Lead <br />
-
+            <strong>Individual Provider (Caregiver)</strong> — Consumer Direct Care Network WA / DSHS
+            <span className="float-right">2025 – Present</span>
             <ul>
-              <li>Led the management and implementation of over 200 production software deployments and improved release standards 
-                within multiple development teams as part TD’s Customer Identity & Access Management Product Family.
-              </li>
-              <li>Created Deployment Lead best practices, as well as trained and consulted new hires on strategies 
-                for successful deployment planning within software development teams through the Scaled Agile Framework.</li>
-              <li>Engaged in interpersonal communication with development teams to manage resources for upcoming releases 
-                of software projects to meet timelines and exceed stakeholder expectations.</li>
+              <li>Provide in-home care for two clients under state-authorized care plans; coordinate schedules and
+                appointments and log service hours for DSHS.</li>
             </ul>
           </div>
           <div>
-          <strong>Weyerhaeuser - Seattle, WA</strong>
-          <span className="float-right">Jan 2019 - Jan 2020</span><br />
-          Cloud Application Developer <br />
-
-          <ul>
-            <li>Configured and deployed SQL Server, database migrations, and database/server functions per service request by application 
-              stewards and corporate function development teams, built tools to assist in automating this process of SQL Server creation 
-              and installation.</li>
-            <li>Deployed infrastructure, and documented new cloud technology topics, consulting team executives on new available technologies 
-              that the corporate technology infrastructure could take advantage of. Built cloud applications with Azure and automated auditing 
-              access logs through Azure DevOps.</li>
-            <li>Developed application-testing workflow and documentation of functional testing. provided helpful aid for the application developers 
-              in regard to acceptance criteria, functionality, and bug documentation.</li>
-          </ul>
+            <strong>Freelance Illustrator &amp; Self-Published Comic Artist</strong>
+            <span className="float-right">2024 – Present</span>
+            <ul>
+              <li>Take paid art commissions from quote to delivery, and write, illustrate, and self-publish original comics.</li>
+            </ul>
+          </div>
+          <div>
+            <strong>Deployment Lead</strong> — TD Bank, Mount Laurel, NJ
+            <span className="float-right">Mar 2023 – Sep 2024</span>
+            <ul>
+              <li>Led 200+ production deployments for TD’s Customer Identity &amp; Access Management product family
+                across multiple development teams.</li>
+              <li>Wrote the Deployment Lead best-practices guide and trained new hires on SAFe release planning.</li>
+              <li>Built a Next.js change-order tracker to replace a spreadsheet-based release process.</li>
+            </ul>
+          </div>
+          <div>
+            <strong>Cloud Application Developer</strong> — Weyerhaeuser, Seattle, WA
+            <span className="float-right">Jan 2019 – Jan 2020</span>
+            <ul>
+              <li>Provisioned SQL Server instances and migrations, and built tooling to automate SQL Server installation.</li>
+              <li>Deployed Azure infrastructure and automated access-log auditing through Azure DevOps.</li>
+              <li>Created the functional-testing workflow and documentation used by application developers.</li>
+            </ul>
           </div>
         </div>
-        <div className="technical-skills">
-          <h4>TECHNICAL SKILLS</h4>
-          <hr id="hr-2"/>
-          <p><span id="indent-1">Languages:</span> JavaScript, Java, C, CSS3, HTML5, PowerShell, SQL, C#, Python, TypeScript <br />
-          <span id="indent-2">Frameworks:</span> Spring, React JS, Vue.js, GitHub, Microsoft Azure, GraphQL, Next.JS, Redux.js <br />
-          <span id="indent-3">Tools:</span> Photoshop, Version Control (git), Visual Studio Code, Figma, Blender, GraphQL, NPM</p>
-        </div>
-        <div className="education">
-          <h4>EDUCATION</h4>
-          <hr id="hr-1"/>
 
-          <p><strong>University of Washington Tacoma, Tacoma, WA</strong> <br />
-          Bachelor of Science in Computer Science &amp; systems <br />
-          <i>Relevant coursework:</i> Software Engineering, Discrete Mathematics, Data Structures, Design and Analysis of Algorithms</p>
-          
-        </div>
         <div className="projects">
           <h4>PROJECTS</h4>
           <hr id="hr-4"/>
-          <strong className="project-header">Change Order Tracker</strong>
-          <ul>
-            <li>A CRUD app built using Next.js, and tailwindcss. Created this project to help with tracking 
-              change orders for my work as a Deployment Lead, based on an improved process I was using through Excel spreadsheets. 
-            </li>
-          </ul>
-
-          <strong className="project-header">Portfolio Website (the one you're on right now!!)</strong>
-          <ul>
-            <li> Portfolio website built with React, as a site to showcase applications and a platform for UI design, graphic design, and other professional resources.. 
-              Features links to projects as well as a link to the github repository as well.</li>
-            <li>Features links to projects as well as a link to the github repository, as well as other opportunities to 
-              test and play around with React in.</li>
-          </ul>
-
-          <strong className="project-header">AMLookup</strong>
-          <ul>
-            <li>Website using the Nuxt/Vue framework, fetches requests through a RESTful API that accesses data from the website MyAnimeList, Jikan. </li>
-            <li>Made for the purpose of querying and listing information on Anime and Manga title listings and displaying information on said listings. 
-              Options available for defining type of search to Video medium, or Print medium.</li>
-          </ul>
+          <div>
+            <strong className="project-header">Obfuscated Resonance</strong> — Godot 4, GDScript
+            <span className="float-right">In development</span>
+            <ul>
+              <li>Arcade puzzle game mixing bubble-shooter play, timed quizzes, and branching visual-novel cutscenes;
+                all pixel art drawn by hand.</li>
+              <li>Built a deterministic ray-sweep shot simulator on a hex grid that computes each shot’s landing cell
+                before it fires, so aim previews always match results and lay the groundwork for networked play.</li>
+              <li>Designed all game systems independently; used Claude Code for AI-assisted testing, debugging, and prototyping.</li>
+            </ul>
+          </div>
+          <p><strong className="project-header">AMLookup</strong> — Nuxt/Vue site that searches anime and manga titles
+            through the Jikan (MyAnimeList) REST API, filterable by medium.</p>
         </div>
-        
+
+        <div className="technical-skills">
+          <h4>TECHNICAL SKILLS</h4>
+          <hr id="hr-2"/>
+          <p><strong>Hardware &amp; Systems:</strong> PC building and custom specs, NAS build (in progress), Linux (Arch-based),
+            Windows, GPU driver troubleshooting<br />
+          <strong>Languages:</strong> JavaScript, TypeScript, Python, GDScript, Java, C#, C, SQL, PowerShell, HTML/CSS<br />
+          <strong>Frameworks &amp; Tools:</strong> React, Next.js, Vue/Nuxt, Spring, Tailwind CSS, GraphQL, Azure, Azure DevOps,
+            Jira, ServiceNow, SQL Server, Git, Godot, Claude Code, Photoshop, Figma, Blender<br />
+          <strong>Certifications:</strong> SAFe 6 Agilist</p>
+        </div>
+
+        <div className="education">
+          <h4>EDUCATION</h4>
+          <hr id="hr-1"/>
+          <p><strong>B.S., Computer Science &amp; Systems</strong> — University of Washington Tacoma
+            <span className="float-right">Dec 2016</span><br />
+          <strong>Certificate in Front-End Web Development</strong> — University of Washington
+            <span className="float-right">2021</span></p>
+        </div>
       </div>}
       { usePDF && <div className="pdf-resume">
         <iframe title="My Resume" src={`${PDF}#toolbar=0&navpanes=0&scrollbar=0`} width="100%" height="1070px"> </iframe>
-      </div> }  
+      </div> }
       <a id="download-button" href={PDF} download="Ashcon_Minoo_Resume.pdf">Download Resume</a>
     </div>
    );
